@@ -303,7 +303,7 @@ También llamados Tipos de variable. Se llaman Tipos primitivos de variable de J
 - boolean: sirve para almacenar valores true y false.
 - char: para almacenar caracteres.
 - byte, short, int y long: para almacenar números enteros.
-- Float y double: para almacenar valores reales de punto flotante, es decir, números con decimales.
+- float y double: para almacenar valores reales de punto flotante, es decir, números con decimales.
 
 La siguiente tabla muestra la cantidad de valores que puede almacenar cada tipo de variable:
 
@@ -373,6 +373,8 @@ Son objetos en java de una determinada clase y no hacen parte del sistema operat
 Los nombres de variables en Java se pueden crear con mucha libertad. Pueden ser cualquier conjunto de caracteres numéricos y alfanuméricos, sin algunos caracteres especiales utilizados por Java como operadores o separadores (, . + - * / etc...), tampoco podrán ser nombradas con palabras reservadas por la aplicación (main, if, for, while, break, etc...). Estas son las palabras reservadas por el sistema y que no pueden usarse como nombre de variables:
 
 ![Palabras reservadas en java](images/palabras_reservadas_java.png)
+
+Como una buena práctica, debe tenerse en cuenta que es comun que se determinen políticas para la declaración de las variables, especialmente en los nombres de los identificadores que regularmente usan la notación CamelCase.
 
 ## Operadores aritmeticos
 
@@ -604,6 +606,29 @@ if (Expresión lógica 1) {
 }
 
 ```
+
+### Operador Ternario
+
+El operador ternario es una forma concisa de escribir una declaración if-else en una sola línea. Se compone de tres partes:
+
+- La condición a evaluar (condición booleana)
+- El valor si la condición es verdadera (valor verdadero)
+- El valor si la condición es falsa (valor falso)
+
+El operador ternario en Java es una construcción que permite tomar decisiones basadas en una condición booleana de manera concisa en una sola línea de código.
+
+Es una forma abreviada de expresar una estructura condicional (if-else). Este operador se compone de tres partes: la condición a evaluar, el valor que se asigna si la condición es verdadera y el valor que se asigna si la condición es falsa.
+
+Su estructura básica es: condición ? valor_si_verdadero : valor_si_falso;. Si la condición es verdadera, se devuelve el valor correspondiente a "valor_si_verdadero"; de lo contrario, se devuelve el valor asignado a "valor_si_falso".
+
+Por ejemplo:
+```plain
+int edad = 20;
+String mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
+System.out.println(mensaje);
+```
+
+En este caso, si la variable edad es mayor o igual a 18, se asignará el mensaje "Eres mayor de edad"; de lo contrario, se asignará "Eres menor de edad".
 
 ### Estructura del switch
 
