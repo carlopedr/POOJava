@@ -29,6 +29,7 @@
   - [Estructura del if](#estructura-del-if).
   - [Estructura del if-else](#estructura-del-if-else).
   - [Estructura del if-else-if-else](#estructura-del-if-else-if-else).
+  - [Operador Ternario](#operador-ternario).
   - [Estructura del switch](#estructura-del-switch).
 - [Estructuras de repetición](#estructuras-de-repeticion).
   - [Estructura for](#estructura-for).
@@ -137,11 +138,21 @@ También, existe una versión para trabajos enfocados en plataformas móviles, l
 
 No sobra decir que, todas estas versiones es de propiedad de la empresa Oracle.
 
-## Instalacion JDK y Netbeans
+## Instalacion JDK y Herramienta de Desarrollo
 
-Para empezar a programar en Java, debemos de descargar el kit de desarrollador de Java (JDK) y por comodidad un entorno de programación como Netbeans (aunque usted puede programar en un bloc de notas como en windows).
+Para empezar a programar en Java, debemos de descargar el kit de desarrollador de Java (JDK) y por comodidad un entorno de programación como Visual Studio Code, Eclipse, IntelliJ  o Netbeans (aunque usted puede programar en un bloc de notas como en windows).
 
-[Descargar el paquete de JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+[Descargar el paquete de JDK desde Oracle ](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+
+[Descargar el paquete de JDK desde OpenJDK ](https://openjdk.org/).
+
+[Descargar Visual Studio Code](https://code.visualstudio.com/).
+
+[Configurar Visual Studio Code para Java](https://code.visualstudio.com/docs/java/java-tutorial).
+
+[Descargar Eclipse](https://eclipseide.org/).
+
+[Descargar IntelliJ](https://www.jetbrains.com/es-es/idea/).
 
 [Descargar Netbeans](https://netbeans.apache.org/front/main/download/).
 
