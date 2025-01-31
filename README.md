@@ -164,6 +164,8 @@ Un programa que imprima en pantalla el clásico ejemplo de **Hola Mundo!** desde
 
 >Este es un simple ejemplo de la sintaxis de java
 
+### Usando Netbeans
+
 1. Abrir Netbeans.
 2. Sigue la siguiente ruta en Netbeans: Archivo - Nuevo proyecto - Categoría [java] - proyecto [Aplicación java] - Clic en siguiente - Coloque nombre al proyecto como "MiprimeraAppEnJava" - Clic en terminar.
 
@@ -190,6 +192,27 @@ public class MiPrimeraAppEnJava {
 Los resultados en pantalla:
 
 ![Hola Mundo en java](images/primeraapp3.png)
+
+### Usando Visual Studio Code
+
+1. Abrir Visual Studio Code (VSC). Debe asegurarse de haber instalado los complementos necesarios y las demas herramientas de desarrollo que necesite.
+2. Sigue la siguiente ruta en VSC: File - New File ...
+![Configuración de mi primera app en java en VSC](images/vsc01.png)
+3. Posteriormente, seleccionar New Java Project
+![Configuración de mi primera app en java en VSC](images/vsc02.png)
+4. En la siguiente ventana, escoger No build tools. Posteriormente podra escoger otros entornos o frameworks para crear proyectos.
+![Configuración de mi primera app en java en VSC](images/vsc03.png)
+5. El asistente pedira una carpeta para guardar los archivos que conformaran el proyecto. Puede seleccionar una carpata existente o crear una nueva.
+![Configuración de mi primera app en java en VSC](images/vsc04.png)
+6. En este paso debe darle nombre al proyecto. Deben seguirse las regals para definir identificadores del proyecto (Camel Case).
+![Configuración de mi primera app en java en VSC](images/vsc05.png)
+7. El asistente crea una estructura con varias carpetas, donde la identificada como src (sources - fuentes) es donde deben crear todos los archivos de código fuente del proyecto.
+En este espacio define una clase con el nombre App.java que contiene el código que se puede observar en la imagen.
+![Configuración de mi primera app en java en VSC](images/vsc06.png)
+8. Para ejecutar el código, puede usar el menu contextual (que se activa con el botón derecho del mouse) y seleccionar la opción Run.
+![Configuración de mi primera app en java en VSC](images/vsc07.png)
+9. El proceso de ejecución, inicia con la compilación del código, la generación del código ejecutable (bytecode) y la ventana de edición, se divide en dos, mostrando una ventana de la terminal de comandos del sistema opeativo que este usando, con el resultado de la ejecución.
+![Configuración de mi primera app en java en VSC](images/vsc08.png)
 
 
 ## Comentar el codigo
@@ -557,7 +580,6 @@ if (Expresión lógica) {
 
 Ejemplo:
 
-
 ```java
 
 x=5;
@@ -633,7 +655,7 @@ Es una forma abreviada de expresar una estructura condicional (if-else). Este op
 Su estructura básica es: condición ? valor_si_verdadero : valor_si_falso;. Si la condición es verdadera, se devuelve el valor correspondiente a "valor_si_verdadero"; de lo contrario, se devuelve el valor asignado a "valor_si_falso".
 
 Por ejemplo:
-```plain
+```java
 int edad = 20;
 String mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
 System.out.println(mensaje);
@@ -917,15 +939,10 @@ Sintaxis:
 ```java
 
 double notas [] = new double[10];
-
 // Definir arreglos de forma directa:
-
 int edades [] = {16, 15};
-
 char vocals []= {'a','e','i','o','u'};
-
 String dias[]={"lunes", "martes", "miercoles", "jueves", "viernes", "sabado"};
-
 ```
 También es muy común llenar los arreglos con el uso de ciclos:
 ```java
@@ -983,7 +1000,9 @@ for(int i=0; i < biarreglo.length; i++){
 
 #### Ordenamiento de  arrays en Java. Método Arrays.sort()
 Para ordenar arrays de cualquier tipo Java dispone del método sort de la clase Arrays. Para utilizarlo es necesario incluir el **import java.util.Arrays;**
+
 El siguiente  ejemplo ordena de forma ascendente un  array de Strings:
+
 ```java
 	String[] nombres = {"juan", "pedro", "ana", "maria", "felipe", "luis", "eduardo"};
         Arrays.sort(nombres);
@@ -991,19 +1010,27 @@ El siguiente  ejemplo ordena de forma ascendente un  array de Strings:
             System.out.println(s);
         }
 ```
+
 **Arrays.sort** ordena de forma ascendente (de menor a mayor). Para ordenar un array de forma descendente (de mayor a menor) hay que indicarlo utilizando el método reverseOrder() de la clase Collections.
 Para utilizar reverseOrder es necesario incluir el **import java.util.Collections;**
 Por ejemplo, para ordenar el array nombres de forma descendente escribimos la instrucción Arrays.sort de la siguiente forma:
+
 ```java
 	Arrays.sort(nombres, Collections.reverseOrder());
 ```
+
 También tenemos la opción de ordenar solo una parte del array, indicando la posición del elemento inicial y la del elemento final (que no se incluye en la ordenación).
+
 Por ejemplo, para ordenar solo los elementos 1, 2 y 3 ("pedro", "ana", "maria") del array nombres escribimos la instrucción de esta forma:
+
 ```java
 	Arrays.sort(nombres, 1, 4);
 ```
+
 El 1 indica la posición del elemento donde comienza la ordenación y el 4 indica la posición del primer elemento que no entra en la ordenación.
+
 El contenido del array después de esta ordenación es el siguiente:
+
 ```
 juan
 ana
@@ -1013,6 +1040,7 @@ felipe
 luis
 eduardo
 ```
+
 Vemos que solo se han ordenado los elementos 1, 2 y 3. El resto quedan igual. 
 
 También podemos ordenar solo una parte del array en orden inverso. Por ejemplo, para ordenar solo los elementos 1, 2 y 3 en orden inverso:
