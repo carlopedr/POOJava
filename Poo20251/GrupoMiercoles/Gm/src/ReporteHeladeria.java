@@ -16,7 +16,7 @@ public class ReporteHeladeria {
         Scanner sc = new Scanner(System.in);
         boolean indSabor = true, indFac = true;
         int acumLimon = 0, acumNuez = 0;
-        int numFac =1;
+        int numFac = 1;
 
         while (indFac) {
             System.out.println("No. Fac: "+numFac);
