@@ -12,7 +12,7 @@ public class Entrada {
 
         f1=100;
 
-        int super;
+        //int super;
 
     }
 
