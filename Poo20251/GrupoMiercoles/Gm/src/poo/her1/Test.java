@@ -10,7 +10,7 @@ public class Test {
 
         System.out.println(a.toString());
 
-        Motocicleta m = new Motocicleta();
+        //Motocicleta m = new Motocicleta();
         
         Auto a1=new Auto("Toyota","Plata",7,5);
         System.out.println(a1.toString());
