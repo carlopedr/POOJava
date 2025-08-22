@@ -1,5 +1,5 @@
 
-package GrupoMartes;
+package GrupoMartes.Lang;
 
 public class Casting {
     public static void main(String[] args) {

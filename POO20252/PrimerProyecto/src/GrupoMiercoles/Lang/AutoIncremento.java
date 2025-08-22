@@ -1,5 +1,5 @@
 
-package GrupoMiercoles;
+package GrupoMiercoles.Lang;
 
 public class AutoIncremento {
     public static void main(String[] args) {

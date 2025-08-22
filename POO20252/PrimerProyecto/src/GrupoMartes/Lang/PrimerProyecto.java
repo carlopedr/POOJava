@@ -1,4 +1,4 @@
-package GrupoMartes;
+package GrupoMartes.Lang;
 /**
  *
  * @author CARLOS PEDRAZA 20257654231

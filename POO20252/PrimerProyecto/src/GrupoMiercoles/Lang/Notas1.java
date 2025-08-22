@@ -10,7 +10,7 @@ califica como 'apto' o 'no apto', por tanto se debe preguntar al usuario
 resultado de la recuperación es apto, la nota será un 3; en caso contrario, 
 se mantiene la nota media anterior.
 */
-package GrupoMiercoles;
+package GrupoMiercoles.Lang;
 
 import java.util.Scanner;
 

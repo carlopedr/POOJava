@@ -1,5 +1,5 @@
 
-package GrupoMartes;
+package GrupoMartes.Lang;
 
 public class For1 {
     public static void main(String[] args) {

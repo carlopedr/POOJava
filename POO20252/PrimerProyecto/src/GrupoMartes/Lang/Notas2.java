@@ -1,4 +1,4 @@
-package GrupoMartes;
+package GrupoMartes.Lang;
 
 import java.util.Scanner;
 

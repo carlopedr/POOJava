@@ -1,4 +1,4 @@
-package GrupoMiercoles;
+package GrupoMiercoles.Lang;
 
 import java.util.Scanner;
 
