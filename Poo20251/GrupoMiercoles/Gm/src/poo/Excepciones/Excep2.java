@@ -1,5 +1,9 @@
+package poo.Excepciones;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+import javax.imageio.ImageIO;
 
 public class Excep2 {
     public static void main(String[] args) {
@@ -18,7 +22,8 @@ public class Excep2 {
         Scanner entrada = new Scanner(System.in);
         int numero;
         System.out.println("escribe un numero entero...");
-        numero = entrada.nextInt();
+        String n = entrada.nextLine();
+        numero = Integer.parseInt(n);
         int cuadrado = numero * numero;
         System.out.println("El cuadrado de " + numero + " es" + cuadrado);
     }

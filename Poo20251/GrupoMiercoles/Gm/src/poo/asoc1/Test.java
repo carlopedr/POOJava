@@ -12,8 +12,12 @@ public class Test {
         DetalleFactura detalle2 = new DetalleFactura(producto2, 2);
         DetalleFactura detalle3 = new DetalleFactura(producto3, 1);
 
+        //Cliente
+
+        Cliente cliente= new Cliente(1, "Carlos");
+
         // Crear factura con espacio para 5 detalles
-        Factura factura = new Factura("F-003", "Carlos", 5);
+        Factura factura = new Factura("F-003", cliente, 5);
 
         // Agregar detalles a la factura
         factura.agregarDetalle(detalle1);

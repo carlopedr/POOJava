@@ -3,7 +3,7 @@ package poo.auto;
 public class Auto {
     //Atributos
     private String marca;
-    private String color;
+    String color;
     private String placa;
     private int cilindraje;
 

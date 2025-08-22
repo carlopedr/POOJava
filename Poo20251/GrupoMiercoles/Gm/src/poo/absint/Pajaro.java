@@ -7,13 +7,13 @@ public class Pajaro extends Ave implements Volador {
     }
 
     @Override
-    void emitirSonido() {
-        System.out.println(nombre + " canta: ¡Pío pío!");
+    public void emitirSonido() {
+        System.out.println(getNombre() + " canta: ¡Pío pío!");
     }
 
     @Override
     public void volar() {
-        System.out.println(nombre + " está volando.");
+        System.out.println(getNombre() + " está volando.");
     }
 }
 

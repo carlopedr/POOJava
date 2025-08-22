@@ -1,3 +1,5 @@
+package poo.Excepciones;
+
 public class Coche {
 
     private String marca;

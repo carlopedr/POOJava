@@ -21,6 +21,18 @@ public class AlfombraCuadrada extends Alfombra{
         return "AlfombraCuadrada [lado=" + lado + ", toString()=" + super.toString() + "]";
     }
 
+    @Override
+    public double calcularSuperficie() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularSuperficie'");
+    }
+
+    @Override
+    public double calcularPrecio() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularPrecio'");
+    }
+
     
 
 

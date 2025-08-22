@@ -6,22 +6,22 @@ public class Test {
 
         //a1.marca="Mazda";
         a1.setMarca("Mazda");
-        a1.color="Rojo";
-        a1.placa="XYZ234";
-        a1.cilindraje=1500;
+        a1.setColor("Rojo");
+        a1.setPlaca("XYZ234");
+        a1.setCilindraje(1500);
 
-        System.out.println("Placa: "+a1.placa);
+        System.out.println("Placa: "+a1.getPlaca());
 
         a1.dimeSiEsMetalizado();
 
-        a1.color="Negro";
+        a1.setColor("Negro");
         a1.dimeSiEsMetalizado();
-        System.out.println("Cil1:"+a1.cilindraje);
+        System.out.println("Cil1:"+a1.getCilindraje());
         a1.actualizarCilindraje(2000);
-        System.out.println("Cil2:"+a1.cilindraje);
+        System.out.println("Cil2:"+a1.getCilindraje());
 
         Auto a2 =new Auto("BMW","Negro","GRF567",2500);
-        System.out.println("Marca a2:"+a2.marca);
+        System.out.println("Marca a2:"+a2.getMarca());
 
     }
 
