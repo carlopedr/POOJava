@@ -12,6 +12,7 @@ public class Test {
         ing.add("Queso");
         ing.add("Jamon");
         ing.add("Piña");
+        ing.add("CarnEsita");
         ArrayList<String> pasos = new ArrayList<String>();
         pasos.add("Amasar la harina");
         pasos.add("Extender la masa");
