@@ -1,5 +1,5 @@
 
-package GrupoMiercoles.poo.poo.Pr1;
+package GrupoMiercoles.poo.pr1;
 
 public class Person {
     //Atributos

@@ -1,4 +1,4 @@
-package GrupoMiercoles.poo.poo.Pr1;
+package GrupoMiercoles.poo.pr1;
 
 public class Test {
     public static void main(String[] args) {
