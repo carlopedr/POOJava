@@ -7,7 +7,7 @@ Crea una clase llamada Forma con los siguientes atributos y métodos:
 */
 package GrupoMiercoles.poo.formas;
 
-public class Forma {
+public abstract class Forma {
     private String nombre;
     private double posicionX;
     private double posicionY;
@@ -57,15 +57,8 @@ public class Forma {
         return "Forma{" + "nombre=" + nombre + ", posicionX=" + posicionX + ", posicionY=" + posicionY + ", color=" + color + '}';
     }
     
-    public double calcularArea(){
-        System.out.println("Para calcular el área de la forma");
-        return 0;
-    }
+    public abstract double calcularArea();   
     
-    
-
    
-    
-    
     
 }

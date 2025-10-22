@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        Forma forma = new Forma("Rombo",1,2,"Azul");
-        System.out.println(forma.toString());
+        //Forma forma = new Forma("Rombo",1,2,"Azul");
+        //System.out.println(forma.toString());
         
         Triangulo t1 = new Triangulo(5,3,"Triangulo1",4,6,"Rojo");
         System.out.println(t1.toString());

@@ -32,6 +32,7 @@ public class Triangulo extends Forma {
         this.altura = altura;
     }
     
+    @Override
     public double calcularArea(){
         return (base*altura)/2;
     }
