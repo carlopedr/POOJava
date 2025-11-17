@@ -16,12 +16,17 @@ public class Pizza extends Receta {
 
     @Override
     public boolean isVegetariano() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        for(String ingrediente: super.getIngredientes()){
+            if(ingrediente.toLowerCase().contains("carne")){
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
     public String tipoPreparacion() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "horno";
     }
     
 }

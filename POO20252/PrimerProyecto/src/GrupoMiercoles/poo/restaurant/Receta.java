@@ -15,6 +15,10 @@ public abstract class Receta implements IFastFood{
         this.pasosPreparacion = pasosPreparacion;
     }
 
+    public Receta() {
+    }
+    
+
     public String getNombre() {
         return nombre;
     }

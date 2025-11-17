@@ -2,7 +2,7 @@ package GrupoMiercoles.poo.abs;
 
 import GrupoMartes.Lang.Abs.*;
 
-public class Animal {
+public class Mascota {
     
     public void makeSound(){
         System.out.println("Some sound...");

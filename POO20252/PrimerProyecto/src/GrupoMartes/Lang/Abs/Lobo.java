@@ -8,4 +8,9 @@ public class Lobo extends Canino {
     public void makeSound(){
         System.out.println("Auuuu...");
     }
+
+    @Override
+    public void move() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
