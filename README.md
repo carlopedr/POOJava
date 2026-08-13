@@ -183,7 +183,7 @@ public class MiPrimeraAppEnJava {
 
     public static void main(String[] args) {
 
-        JOptionPane.showMessageDialog(null,"Hola Mundo!"); //Muestro en pantalla el mensaje "Hola Mundo!"
+        System.out.println("Hola Mundo!"); //Muestro en pantalla el mensaje "Hola Mundo!"
     }
 }
 
