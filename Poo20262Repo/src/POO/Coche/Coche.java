@@ -11,7 +11,8 @@ public class Coche {
     private int anio;
     private String matricula;
     private double impuestoMatricula;
-    private String dniTitular;
+    //private String dniTitular;
+    Persona titular;
     private double impuestoContaminacion;
 
     public Coche(String marca, String color, double precio, double factorContaminacion, int anio) {
@@ -47,7 +48,8 @@ public class Coche {
     }
 
     public void setDniTitular(String dniTitular) {
-        this.dniTitular = dniTitular;
+        //this.dniTitular = dniTitular;
+        titular.setDni(dniTitular);
     }
 
     public String getMarca() {
@@ -83,7 +85,16 @@ public class Coche {
     }
 
     public String getDniTitular() {
-        return dniTitular;
+        //return dniTitular;
+        return titular.getDni();
+    }
+
+    public Persona getTitular() {
+        return titular;
+    }
+
+    public void setTitular(Persona titular) {
+        this.titular = titular;
     }
 
       
@@ -100,11 +111,18 @@ public class Coche {
         else
             impuestoContaminacion=precio*0.1;
     }
+    
+    public void hacerTransferenciaCoche (Coche otroCoche){
+        //this.dniTitular=otroCoche.getDniTitular();
+        this.titular.setDni(otroCoche.titular.getDni());
+    }
 
     @Override
     public String toString() {
-        return "Coche{" + "marca=" + marca + ", color=" + color + ", km=" + km + ", precio=" + precio + ", factorContaminacion=" + factorContaminacion + ", anio=" + anio + ", matricula=" + matricula + ", impuestoMatricula=" + impuestoMatricula + ", dniTitular=" + dniTitular + ", impuestoContaminacion=" + impuestoContaminacion + '}';
+        return "Coche{" + "marca=" + marca + ", color=" + color + ", km=" + km + ", precio=" + precio + ", factorContaminacion=" + factorContaminacion + ", anio=" + anio + ", matricula=" + matricula + ", impuestoMatricula=" + impuestoMatricula + ", titular=" + titular + ", impuestoContaminacion=" + impuestoContaminacion + '}';
     }
+
+   
     
     
     
